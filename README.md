@@ -11,6 +11,8 @@ This project was created as part of the **Full-Stack Development course at Brain
 
 The form functions properly, **storing data in the database**. After clicking "Send", a **thank_you.html** page appears, confirming the successful submission and storage of the data.
 
+This project was created as part of the **Full-Stack Development course at Brainster**.
+
 ## Technologies Used  
 - **HTML5**  
 - **Bootstrap**  
