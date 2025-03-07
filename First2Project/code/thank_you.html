@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="mk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you</title>
+    <!-- <link rel="stylesheet" href="styles.css">  -->
+     
+    <!-- Latest Font-Awesome CDN -->
+  <script src="https://kit.fontawesome.com/e46b171c27.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="thank-you-message">
+        <i class="fa-solid fa-circle-check check"></i>
+        <h1>Thank you for your submission!</h1>
+        <p>Your information has been successfully submitted. We will contact you shortly.</p>
+        <p>For any additional questions, please do not hesitate to contact us.</p>
+        <a href="index.html" class="back-to-home">Return to the homepage.</a>
+    </div>
+</body>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: lightgrey;
+        margin: 0;
+        font-family: "Inter", Sans-serif;
+    }
+
+    .thank-you-message {
+        background-color: white;
+        border-radius: 10px;
+        text-align: center;
+        width: 50%;
+        padding: 15px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .check{
+        font-size: 50px;
+        color: green;
+        text-align: center;
+        padding: 5px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .back-to-home{
+        display: block;
+        justify-self: center;
+        background-color: white;
+        color: green;
+        border: 2px solid green;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 8px;
+        width: 350px
+    }
+
+    .back-to-home:hover{
+        background-color: green;
+        color: white;
+    }
+
+</style>
+
+</html>
