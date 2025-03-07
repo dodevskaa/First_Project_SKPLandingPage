@@ -23,7 +23,9 @@ This project was created as part of the **Full-Stack Development course at Brain
 ## Setup Instructions  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/dodevskaa/Bootstrap_Project_AboutUsPage.git
+   git clone https://github.com/dodevskaa/First_Project_SKPLandingPage.git
+
+   
 
 
 
